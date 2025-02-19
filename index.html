@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Technology & Sleep</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: url("image.png") no-repeat center center fixed;
+        background-size: cover;
+      }
+      h1 {
+        margin-bottom: 20px;
+
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      p {
+        width: 80%;
+        max-width: 900px;
+        opacity: 0;
+        animation: fadeIn 2s forwards;
+        font-size: 18px;
+        line-height: 1.6;
+        text-align: justify;
+
+        color: white;
+        padding: 15px;
+        border-radius: 5px;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      a {
+        color: cyan;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+      }
+      a:hover {
+        color: lime;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>How Technology Affects Our Sleep</h1>
+    <p>
+      <a href="https://en.m.wikipedia.org/wiki/Technology" target="_blank"
+        >Technology</a
+      >
+      has definitely impacted how we sleep. Many of us stay up far too late into
+      the night texting friends or scrolling through social media. It's hard to
+      put the devices away even when we're tired. How many of us are guilty of
+      waking up in the middle of the night and rolling over to check our phones?
+      Both kids and adults alike spend countless hours watching funny cat videos
+      or other mindless amusements. It's hard to pull ourselves away from the
+      apps that are intentionally designed to keep us sucked in. One of the most
+      negative effects of technology is the rise of
+      <a
+        href="https://www.washingtonpost.com/opinions/tech-addiction-is-real-we-psychologists-need-to-take-it-seriously/2019/03/18/5f12ad2e-3c54-11e9-a06c-3ec8ed509d15_story.html?noredirect=on"
+        target="_blank"
+        >Technology addiction</a
+      >.
+    </p>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        alert("Welcome! Learn how technology affects sleep.");
+      });
+    </script>
+  </body>
+</html>
